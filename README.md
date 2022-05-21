@@ -1,4 +1,4 @@
-# **Venus: A discrete and robust content distribution solution for creators**
+# **ATHENA: A discrete and robust content distribution solution for creators**
 
 Goals
 - Create a patreon/onlyfan platform for creators
@@ -7,8 +7,7 @@ Goals
 - Own your content, get all of your revenue. (platform advertised as taking no profits)
 
 Outline:
-
-- Patreon / OnlyFans on-chain
+- Women's educational program on-chain
 - Mint NFTs as membership/subscription to specific creators
 - User connects wallet to app
     - gets access to creators whose NFTs they hold
