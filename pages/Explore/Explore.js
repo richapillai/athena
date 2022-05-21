@@ -2,7 +2,6 @@ import { Button, Flex, Grid, Text } from "@chakra-ui/react";
 import { THEME } from "../../theme/colors";
 import { ThumbnailCol } from "../../components";
 import CREATORS from "../../data/creators";
-import Creator4 from "../../data/creators/creator4.js";
 
 
 const FilterList = () => {
@@ -44,7 +43,7 @@ const getExploreFeed = (currentAccount) => {
 };
 
 function Explore() {
-	const currentUser = Creator4; //"SpaceSuitMan";
+	const currentUser = CREATORS.creator4; //Creator4; //"SpaceSuitMan";
 	const creatorContent = getExploreFeed(currentUser);
 	const thumbnailText = "Click To Visit This Account";
 

@@ -18,11 +18,14 @@ const getFeed = (currentUser) => {
 	return content;
 };
 
-function Home({ currentUser }) {
-
-	if(typeof(currentUser)=== 'undefined'){
+function Home() {
+	/*
+	const currentUser = props?.currentUser || Creator4;
+	if (typeof (currentUser) === 'undefined') {
 		currentUser = Creator4
 	}
+	*/
+	const currentUser = Creator4;
 	const feed = getFeed(currentUser);
 
 	return (
