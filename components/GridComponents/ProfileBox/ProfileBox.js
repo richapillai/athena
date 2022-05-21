@@ -54,12 +54,12 @@ function ProfileBox({ user }) {
 				align='center'
 				flexDir='column'
 				borderRadius='1rem'
-				//shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
+				// shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
 				shadow='0px 2px 8px 0px rgba(99, 99, 99, 0.2)'
 				bg={THEME.bgBoxes}>
 				<Text
 					color={THEME.tertiary}
-					text-transform='lowercase' //this is not working so we should change usernames to lowercase
+					text-transform='lowercase' // this is not working so we should change usernames to lowercase
 					fontWeight='bold'
 					fontSize='1.25rem'>
 					{user.username}

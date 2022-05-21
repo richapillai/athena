@@ -29,11 +29,11 @@ const FilterList = () => {
 
 const getExploreFeed = (currentAccount) => {
 	const creators = [];
-	// eslint-disable-next-line no-restricted-syntax
+	// eslint-disable-next-line no-restricted-syntax 
 	for (const [_, value] of Object.entries(CREATORS)) {
 		// if (!value.subscriptions.includes(currentAccount)) {
 		// 	creators.push(value.content[0]);
-		// }
+		// } 
 		creators.push(value.content[0]);
 		if (creators.length === 12) {
 			break;
@@ -43,7 +43,7 @@ const getExploreFeed = (currentAccount) => {
 };
 
 function Explore() {
-	const currentUser = CREATORS.creator4; //Creator4; //"SpaceSuitMan";
+	const currentUser = CREATORS.creator4; // Creator4; // "SpaceSuitMan"; 
 	const creatorContent = getExploreFeed(currentUser);
 	const thumbnailText = "Click To Visit This Account";
 

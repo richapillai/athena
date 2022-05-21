@@ -41,7 +41,7 @@ function FollowingBox({ following }) {
 				Following
 			</Text>
 			<Flex
-				//shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
+				// shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
 				shadow='0px 2px 8px 0px rgba(99, 99, 99, 0.2)'
 
 				h='91%'

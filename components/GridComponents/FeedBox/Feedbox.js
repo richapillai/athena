@@ -36,7 +36,7 @@ function Post({ postData }) {
 					gap='.5rem'
 					maxW='12rem'
 					textOverflow='ellipsis'
-					//bg='rgba(0,0,0,.75)'
+					// bg='rgba(0,0,0,.75)' 
 					bg='rgba(255, 255, 255, 0.9)'
 					h='3rem'
 					px='.5rem'
@@ -66,8 +66,8 @@ function Post({ postData }) {
 					px='.5rem'
 					py='.25rem'
 					mb='.25rem'
-					//bg='rgba(0,0,0,.75)'
-					//color={THEME.textWhite}
+					// bg='rgba(0,0,0,.75)'
+					// color={THEME.textWhite}
 					borderRadius='0 0 .25rem .25rem'
 					bg='rgba(255, 255, 255, 0.9)'
 					color={THEME.textBlack}>
@@ -90,7 +90,7 @@ function FeedBox({ feed }) {
 				Feed
 			</Text>
 			<Flex
-				//shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
+				// shadow='inset 0px 0px 15px 1px rgba(0, 0, 0, .9)'
 				shadow='0px 2px 8px 0px rgba(99, 99, 99, 0.2)'
 				h='calc(100% - 1.6rem)'
 				align='center'

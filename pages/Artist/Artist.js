@@ -1,9 +1,9 @@
 import { Button, Flex, Grid, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router"; 
 import { useRecoilValue } from "recoil";
 import { THEME } from "../../theme/colors";
-import { DUMMY_FEED } from "../../data";
+// import { DUMMY_FEED } from "../../data"; 
 import { ThumbnailCol } from "../../components";
 import CREATORS from "../../data/creators";
 import exploreState from "../../recoil/atoms/exploring";
@@ -16,7 +16,7 @@ const getContent = (currAccount) => {
 
 function Artist() {
 	const addressViewing = useRecoilValue(exploreState);
-	const [account, setAccount] = useState(CREATORS[addressViewing]);
+	const [account, setAccount] = useState(CREATORS[addressViewing]); 
 
 	const userContent = getContent(addressViewing);
 

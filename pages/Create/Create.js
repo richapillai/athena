@@ -1,7 +1,7 @@
 import { Grid } from "@chakra-ui/react";
 import { ActivateButton, CreatorParameters, Feedbox } from "../../components";
-import { DUMMY_FEED } from "../../data";
-import CREATORS from "../../data/creators";
+// import { DUMMY_FEED } from "../../data"; 
+// import CREATORS from "../../data/creators"; 
 import { Creator4 } from "../../data/creators/creator4";
 import { THEME } from "../../theme/colors";
 
