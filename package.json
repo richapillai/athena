@@ -1,0 +1,45 @@
+{
+	"name": "venus",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/icons": "^2.0.0",
+		"@chakra-ui/react": "^2.0.0",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"@solana/wallet-adapter-base": "^0.9.5",
+		"@solana/wallet-adapter-react": "^0.15.4",
+		"@solana/wallet-adapter-react-ui": "^0.9.6",
+		"@solana/wallet-adapter-wallets": "^0.16.1",
+		"@solana/web3.js": "^1.42.0",
+		"@terra-money/terra.js": "^3.0.12",
+		"@terra-money/wallet-provider": "^3.8.1",
+		"child_process": "^1.0.2",
+		"framer-motion": "^6",
+		"next": "12.1.6",
+		"react": "^18.1.0",
+		"react-dom": "18.1.0",
+		"react-hook-form": "^7.31.1",
+		"react-scripts": "4.0.3",
+		"recoil": "^0.7.3-alpha.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-next": "12.1.6",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-react": "^7.28.0",
+		"eslint-plugin-react-hooks": "^4.3.0"
+	},
+	"browser": {
+		"child_process": false
+	}
+}

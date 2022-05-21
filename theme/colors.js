@@ -1,0 +1,16 @@
+export const THEME = {
+	bgPrimary: "#ffffff",
+	bgSecondary: "#e3f2f8",
+	primary: "#606a70",
+	primaryDark: "#A90131",
+	secondaryLight: "#08aab0",
+	secondaryDark: "#00A1AC",
+	tertiary: "#fc7a94",
+	textWhite: "#ffffff",
+	textNeutral: "#808080",
+	textBlack: "#000000",
+	bgBoxes: "#f4fbff",
+	boxBorder: "#eef4f8",
+	boxHeader: "#08777d",
+	bar: "#b3c4c9",
+};
