@@ -17,6 +17,7 @@ import { THEME } from "../../theme/colors";
 function Navbar() {
 	const router = useRouter();
 
+
 	return (
 		<Flex
 			h='6rem'
@@ -78,13 +79,7 @@ function Navbar() {
 				}>
 				Create
 			</Link>
-			<WalletButton
-				text={`${JSON.stringify(address).slice(
-					1,
-					5
-				)}...${JSON.stringify(address).slice(-5, -1)}`}
-				ml='auto'
-			/>
+			<WalletMultiButton />
 		</Flex>
 	);
 }
