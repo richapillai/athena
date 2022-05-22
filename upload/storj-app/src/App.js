@@ -46,7 +46,7 @@ function App() {
       // `file` can be a readable stream in node or a `Blob` in the browser
     
       const params = {
-        Bucket: "miamihack-storj",
+        Bucket: "cakes",
         Key: accessKeyId,
         Body: fileToHandle
       };
@@ -59,7 +59,7 @@ function App() {
     )();
 
     const params = {
-      Bucket: "miamihack-storj",
+      Bucket: "cakes",
       Key: accessKeyId
     }
 
@@ -88,7 +88,12 @@ function App() {
       <div>
         <h2>Post URL:</h2>
          {srcUrl}
+        <div>
+          <h3>Image:</h3>
+          <img height='300' src={srcUrl} alt='not loading'/>
+        </div>
       </div>
+
     }
     </div>
   );

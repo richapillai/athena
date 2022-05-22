@@ -102,7 +102,7 @@ function CreatorParameters({ following }) {
 						whiteSpace='initial'
 						w='50%'
 						height='8rem'>
-						Upload Subscription Photo
+						Upload Content
 					</Button>
 					<Button
 						bg={THEME.tertiary}
