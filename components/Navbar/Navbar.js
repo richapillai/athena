@@ -78,9 +78,13 @@ function Navbar() {
 				}>
 				Create
 			</Link>
-			<Button color={THEME.textWhite} px='1rem' bg={THEME.secondaryDark}>
-				terra....4823
-			</Button>
+			<WalletButton
+				text={`${JSON.stringify(address).slice(
+					1,
+					5
+				)}...${JSON.stringify(address).slice(-5, -1)}`}
+				ml='auto'
+			/>
 		</Flex>
 	);
 }

@@ -100,18 +100,31 @@ function CreatorParameters({ following }) {
 					<Button
 						bg={THEME.tertiary}
 						whiteSpace='initial'
-						w='50%'
+						w='100%'
 						height='8rem'>
 						Upload Content
 					</Button>
-					<Button
+					{/* <Button
 						bg={THEME.tertiary}
 						whiteSpace='initial'
 						w='50%'
 						height='8rem'>
 						Upload Content
-					</Button>
+					</Button> */}
 				</Flex>
+				<FormControl display='flex' gap='2rem' flexDir='column'>
+					<InputGroup>
+						<InputLeftAddon bg={THEME.primary} color='white'>
+							<Text>Caption</Text>
+						</InputLeftAddon>
+						<Input
+							color='white'
+							name='caption'
+							type='string'
+							placeholder='Insert caption...'
+						/>
+					</InputGroup>
+				</FormControl>
 			</Flex>
 		</GridItem>
 	);

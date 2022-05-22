@@ -16,7 +16,7 @@ function Create() {
 			bg={THEME.bgPrimary}
 			templateRows='repeat(3, 30%)'
 			p='1rem 2rem 2rem 2rem'>
-			<ActivateButton />
+			{/* <ActivateButton /> */}
 			<Feedbox feed={feed} />
 			<CreatorParameters />
 		</Grid>
