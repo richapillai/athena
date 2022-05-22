@@ -1,5 +1,5 @@
 import { Flex, GridItem, Link, Text } from "@chakra-ui/react";
-import { THEME } from "../../../theme/colors";
+import { THEME } from "../../../theme/colors"
 
 function FollowerCards({ following }) {
 	return (

@@ -6,7 +6,6 @@ import {
 	Flex,
 	InputLeftElement,
 	Text,
-	Button,
 } from "@chakra-ui/react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import Image from "next/image";
@@ -17,7 +16,6 @@ import { THEME } from "../../theme/colors";
 function Navbar() {
 	const router = useRouter();
 
-
 	return (
 		<Flex
 			h='6rem'
@@ -27,17 +25,17 @@ function Navbar() {
 			justify='space-between'>
 			<Link display='flex' href='/' align='center' gap='1rem' w='12rem'>
 				<Image
-					src='/assets/images/logo.svg'
-					alt='pluto'
-					height={40}
-					width={40}
+					src='https://i.ibb.co/CHBJ9jQ/Real-Estate-6.png'
+					alt='athena'
+					height={50}
+					width={50}
 				/>
 				<Text
 					fontSize='1.8rem'
 					fontWeight='bold'
 					fontFamily=''
 					color={THEME.secondaryLight}>
-					Pluto
+					Athena
 				</Text>
 			</Link>
 			<InputGroup w='30rem'>
@@ -53,27 +51,27 @@ function Navbar() {
 				/>
 			</InputGroup>
 			<Link
-				href='/Home/Home'
+				href='/Home'
 				color={
-					router.asPath === "/Home/Home" || router.asPath === "/"
+					router.asPath === "/Home" || router.asPath === "/"
 						? THEME.primary
 						: THEME.textBlack
 				}>
 				Home
 			</Link>
 			<Link
-				href='/Explore/Explore'
+				href='/Explore'
 				color={
-					router.asPath === "/Explore/Explore"
+					router.asPath === "/Explore"
 						? THEME.primary
 						: THEME.textBlack
 				}>
 				Explore
 			</Link>
 			<Link
-				href='/Create/Create'
+				href='/Create'
 				color={
-					router.asPath === "/Create/Create"
+					router.asPath === "/Create"
 						? THEME.primary
 						: THEME.textBlack
 				}>

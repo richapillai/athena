@@ -6,7 +6,7 @@ import { Creator4 } from "../../data/creators/creator4";
 import { THEME } from "../../theme/colors";
 
 function Create() {
-	const username = "SpaceSuitMan";
+	// const username = "SpaceSuitMan";
 	const feed = Creator4.content;
 	return (
 		<Grid

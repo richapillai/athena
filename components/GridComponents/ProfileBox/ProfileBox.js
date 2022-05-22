@@ -1,4 +1,4 @@
-import { Button, Flex, Grid, GridItem, Link, Text } from "@chakra-ui/react";
+import { Button, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import { THEME } from "../../../theme/colors";
 
 // function ProfileOption({ title, url }) {

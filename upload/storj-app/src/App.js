@@ -5,7 +5,7 @@ import S3 from "aws-sdk/clients/s3";
 
 function App() {
 
-  const [file, setFile] = useState()
+  const [file, setFile] = useState('')
   const [srcUrl, setSrcUrl] = useState('')
 
   const handleFile=async (fileToHandle) =>{

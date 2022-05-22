@@ -1,5 +1,5 @@
 import { Button, Flex, Grid, Text } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 // import { useRouter } from "next/router"; 
 import { useRecoilValue } from "recoil";
 import { THEME } from "../../theme/colors";
