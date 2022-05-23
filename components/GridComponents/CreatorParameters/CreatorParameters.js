@@ -9,9 +9,9 @@ import {
 	InputLeftAddon,
 	Text,
 } from "@chakra-ui/react";
+import S3 from "aws-sdk/clients/s3";
 import { useState } from "react";
 import { THEME } from "../../../theme/colors";
-import S3 from "aws-sdk/clients/s3";
 
 // const [file, setFile] = useState();
 // const [srcUrl, setSrcUrl] = useState('');

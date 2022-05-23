@@ -38,7 +38,7 @@ function Artist() {
 				<Button color={THEME.textWhite} bg={THEME.primary}>
 					Mint Subscription
 				</Button>
-				<Text fontSize='1.5rem'>PRICE: {account.contentCW721.price} UST</Text>
+				<Text fontSize='1.5rem'>PRICE: {account.contentCW721.price} SOL</Text>
 			</Flex>
 			<Grid templateColumns='repeat(2, 1fr)' w='100%' h='90%'>
 				<ThumbnailCol
